@@ -1,7 +1,7 @@
 # mocha-chai-livescript
 
 [![Build
-Status](https://travis-ci.org/wilmoore/stbstatus.png?branch=master)](https://travis-ci.org/wilmoore/stbstatus)
+Status](https://travis-ci.org/wilmoore/mocha-chai-livescript.png?branch=master)](https://travis-ci.org/wilmoore/mocha-chai-livescript)
 [![Build
 Status](https://david-dm.org/wilmoore/mocha-chai-livescript.png)](https://david-dm.org/wilmoore/mocha-chai-livescript)
 [![NPM
