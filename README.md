@@ -10,7 +10,19 @@ version](https://badge.fury.io/js/mocha-chai-livescript.png)](http://badge.fury.
 Minimal [Node.js][] module example with production code written in pure
 JavaScript and unit tests written in [LiveScript][]. Tests written against the [Mocha][] and [Chai][] libraries. Continuous integration via [Travis][].
 
-![make test --REPORTER=spec](https://dsz91cxz97a03.cloudfront.net/csLSdgzjkh-1200x1200.png)
+![make test](https://dsz91cxz97a03.cloudfront.net/csLSdgzjkh-1200x1200.png)
+
+## Example
+
+```livescript
+require! main: '../index'
+require! chai.assert
+
+describe 'testing' ->
+
+  specify 'is awesome with LiveScript' ->
+    assert main() === true
+```
 
 ## Usage
 
