@@ -4,8 +4,6 @@
 Status](https://travis-ci.org/wilmoore/mocha-chai-livescript.png?branch=master)](https://travis-ci.org/wilmoore/mocha-chai-livescript)
 [![Build
 Status](https://david-dm.org/wilmoore/mocha-chai-livescript.png)](https://david-dm.org/wilmoore/mocha-chai-livescript)
-[![NPM
-version](https://badge.fury.io/js/mocha-chai-livescript.png)](http://badge.fury.io/js/mocha-chai-livescript)
 
 Minimal [Node.js][] module example with production code written in pure
 JavaScript and unit tests written in [LiveScript][]. Tests written against the [Mocha][] and [Chai][] libraries. Continuous integration via [Travis][].
