@@ -1,4 +1,4 @@
-REPORTER = dot
+REPORTER = spec
 COMPILER = ls:LiveScript
 
 test: node_modules
