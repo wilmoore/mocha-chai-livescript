@@ -1,11 +1,11 @@
-# mocha-chai-coffee
+# mocha-chai-livescript
 
 [![Build
 Status](https://travis-ci.org/wilmoore/stbstatus.png?branch=master)](https://travis-ci.org/wilmoore/stbstatus)
 [![Build
-Status](https://david-dm.org/wilmoore/mocha-chai-coffee.png)](https://david-dm.org/wilmoore/mocha-chai-coffee)
+Status](https://david-dm.org/wilmoore/mocha-chai-livescript.png)](https://david-dm.org/wilmoore/mocha-chai-livescript)
 [![NPM
-version](https://badge.fury.io/js/mocha-chai-coffee.png)](http://badge.fury.io/js/mocha-chai-coffee)
+version](https://badge.fury.io/js/mocha-chai-livescript.png)](http://badge.fury.io/js/mocha-chai-livescript)
 
 Minimal [Node.js][] module example with production code written in pure JavaScript and unit tests written in [CoffeeScript][]. Tests written against the [Mocha][] and [Chai][] libraries. Continuous integration via [Travis][].
 
@@ -14,8 +14,8 @@ Minimal [Node.js][] module example with production code written in pure JavaScri
 ## Usage
 
 ```
-% git clone https://github.com/wilmoore/mocha-chai-coffee.git
-% cd mocha-chai-coffee
+% git clone https://github.com/wilmoore/mocha-chai-livescript.git
+% cd mocha-chai-livescript
 % rm -rf .git
 % make test REPORTER=spec
 ```
@@ -27,6 +27,6 @@ MIT
 
 [Chai]: http://chaijs.com
 [Mocha]: http://visionmedia.github.io/mocha
-[Travis]: https://travis-ci.org/wilmoore/mocha-chai-coffee
+[Travis]: https://travis-ci.org/wilmoore/mocha-chai-livescript
 [Node.js]: http://nodejs.org
 [CoffeeScript]: http://coffeescript.org
