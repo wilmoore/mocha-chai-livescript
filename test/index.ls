@@ -10,4 +10,4 @@ describe 'application of main' ->
     main! |> (is yes) |> assert
 
   specify 'is on' ->
-    main! |> expect |> (is on)
+    main! |> expect |> (.to.equal on)
