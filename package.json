@@ -1,7 +1,7 @@
 {
   "name": "mocha-chai-livescript",
   "description": "Minimal Node.js module example with production code written in pure JavaScript and unit tests written in LiveScript. Tests written against the Mocha and Chai libraries. Continuous integration via Travis.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Wil Moore III",
     "email": "wil.moore@wilmoore.com",
