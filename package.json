@@ -2,36 +2,35 @@
   "name": "mocha-chai-livescript",
   "description": "Minimal Node.js module example with production code written in pure JavaScript and unit tests written in LiveScript. Tests written against the Mocha and Chai libraries. Continuous integration via Travis.",
   "version": "0.1.0",
-  "homepage": "https://github.com/wilmoore/mocha-chai-livescript",
   "author": {
     "name": "Wil Moore III",
     "email": "wil.moore@wilmoore.com",
     "url": "http://github.com/wilmoore"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wilmoore/mocha-chai-livescript.git"
-  },
   "bugs": {
     "url": "https://github.com/wilmoore/mocha-chai-livescript/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/wilmoore/mocha-chai-livescript/blob/master/LICENSE"
-    }
-  ],
-  "main": "index.js",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "scripts": {
-    "test": "make test"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "livescript": "^1.4.0",
     "mocha": "^2.4.5"
   },
-  "keywords": []
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "homepage": "https://github.com/wilmoore/mocha-chai-livescript",
+  "keywords": [
+    "chai",
+    "livescript",
+    "mocha"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilmoore/mocha-chai-livescript.git"
+  },
+  "scripts": {
+    "test": "mocha --compilers ls:livescript"
+  }
 }

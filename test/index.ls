@@ -1,13 +1,13 @@
 require! '../index':main
 require! 'chai':{assert, expect}
 
-describe 'testing' ->
+describe 'application of main' ->
 
-  specify 'is awesome with LiveScript V1' ->
+  specify 'is true' ->
     assert main() === true
 
-  specify 'is awesome with LiveScript V2' ->
+  specify 'is yes' ->
     main! |> (is yes) |> assert
 
-  specify 'is awesome with LiveScript V3' ->
+  specify 'is on' ->
     main! |> expect |> (is on)

@@ -1,43 +1,21 @@
 # mocha-chai-livescript
+> Minimal [Node.js][] module example with production code in JavaScript and unit tests in [LiveScript][]. Tests written against the [Mocha][] and [Chai][] libraries. Continuous integration via [Travis][].
 
-[![Build
-Status](https://travis-ci.org/wilmoore/mocha-chai-livescript.png?branch=master)](https://travis-ci.org/wilmoore/mocha-chai-livescript)
-[![Build
-Status](https://david-dm.org/wilmoore/mocha-chai-livescript.png)](https://david-dm.org/wilmoore/mocha-chai-livescript)
+[![Build Status](http://img.shields.io/travis/wilmoore/mocha-chai-livescript.svg)](https://travis-ci.org/wilmoore/mocha-chai-livescript) [![Code Climate](https://codeclimate.com/github/wilmoore/mocha-chai-livescript/badges/gpa.svg)](https://codeclimate.com/github/wilmoore/mocha-chai-livescript)
 
-Minimal [Node.js][] module example with production code written in pure
-JavaScript and unit tests written in [LiveScript][]. Tests written against the [Mocha][] and [Chai][] libraries. Continuous integration via [Travis][].
-
-![make test](https://dsz91cxz97a03.cloudfront.net/csLSdgzjkh-1200x1200.png)
-
-## Example
-
-```livescript
-require! main: '../index'
-require! chai.assert
-
-describe 'testing' ->
-
-  specify 'is awesome with LiveScript' ->
-    assert main() === true
-```
-
-## Usage
-
-```
-% git clone https://github.com/wilmoore/mocha-chai-livescript.git
-% cd mocha-chai-livescript
-% rm -rf .git
-% make test
+```shell
+git clone git@github.com:wilmoore/mocha-chai-livescript.git
+cd mocha-chai-livescript
+rm -rf .git
+npm install
+npm test
 ```
 
 ## License
 MIT
 
-
-
 [Chai]: http://chaijs.com
-[Mocha]: http://visionmedia.github.io/mocha
+[Mocha]: https://mochajs.org
 [Travis]: https://travis-ci.org/wilmoore/mocha-chai-livescript
 [Node.js]: http://nodejs.org
 [LiveScript]: http://livescript.net
