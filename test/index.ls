@@ -1,5 +1,5 @@
-require! main: '../index'
-require! chai.assert
+require! '../index':main
+require! 'chai':{assert}
 
 describe 'testing' ->
 
