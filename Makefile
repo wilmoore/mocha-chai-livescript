@@ -1,5 +1,5 @@
 REPORTER = spec
-COMPILER = ls:LiveScript
+COMPILER = ls:livescript
 
 test: node_modules
 	@./node_modules/.bin/mocha --reporter $(REPORTER) --compilers $(COMPILER)
